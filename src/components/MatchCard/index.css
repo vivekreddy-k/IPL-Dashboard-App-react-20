@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.match-card {
+  list-style: none;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 45%;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 32%;
+    margin-right: 10px;
+  }
+}
+
+.match-card-name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .match-card-name {
+    font-size: 22px;
+  }
+}
+
+.match-card-result {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-result {
+    font-size: 18px;
+  }
+}
+
+.match-card-logo {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.match-status {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .match-status {
+    font-size: 20px;
+    font-family: 'Bree Serif';
+  }
+}
+
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
