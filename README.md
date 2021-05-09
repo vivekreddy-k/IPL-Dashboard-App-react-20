@@ -1,6 +1,7 @@
-In this assignment let's build a **IPL Dashboard App** by applying the concepts we have learned till now.
+In this assignment let's build a **IPL Dashboard App** 
 
 ### Refer to images below:
+** -- https://assets.ccbp.in/frontend/content/react-js/ipl-dashboard-output-v2.gif -- **
 
 <!-- TODO: need to update output images -->
 <br/>
@@ -160,53 +161,7 @@ The app must have the following functionalities
 
 </details>
 
-#### Quick Tips
 
-<details>
-<summary>Click to view Quick Tips</summary>
-
-- To show the animated loader, we need to import the loader component as
-  `import Loader from 'react-loader-spinner'`
-- In order to form the given animated loader, use **Oval** for `type` attribute
-  & also use **#ffffff** for `color` attribute of `Loader` component
-
-  ```
-  <Loader type="Oval" color="#ffffff" height={50} width={50} />
-  ```
-
-  </details>
-  <br/>
-
-> #### Important Note
->
-> <details open>
-> <summary>Click to view Important Note Points</summary>
->
-> **The following HTML attributes are required for the HTML for the tests to
-> pass**
->
-> - The IPL logo in the Home Route should have the HTML alt attribute value as
->   `ipl-logo`
-> - The API response received from the given apiUrl should be converted to camel
->   case
->
-> - Wrap the Loader component with an HTML container element and add the
->   `testid` attribute value as `loader` to it as shown below
->
-> ```
-> <div testid="loader">
->      <Loader type="Oval" color="#ffffff" height={80} width={80} />
-> </div>
-> ```
->
-> - Render HomeRoute component when path in URL matches `/`
-> - Render TeamMatchesRoute component when path in URL matches `/team-matches/:id`
->
-> - No need to use the `BrowserRouter` in `App.js` as we have already included
->   in `index.js` file
-> - Each TeamMatchesRoute should have different gradient colors as background
-> based on the selected team
-> </details>
 
 ### Resources
 
@@ -266,11 +221,4 @@ The app must have the following functionalities
 
 - Bree Serif
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
+
